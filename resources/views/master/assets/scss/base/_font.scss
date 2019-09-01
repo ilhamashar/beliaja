@@ -1,0 +1,75 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+// font-color
+.bla {
+  color: $black;
+}
+.da-gra {
+  color: $dark-gray;
+}
+.gra {
+  color: $gray;
+}
+.gre {
+  color: $green;
+}
+.gre2{
+  color: $darkgreen;
+}
+.or {
+  color: $orange;
+}
+.re {
+  color: $red;
+}
+.wh {
+  color: $white;
+}
+.ye {
+  color: $yellow;
+}
+// font-size
+.smaller {
+  font-size: 0.7em !important;
+}
+.baby-small {
+  font-size: 0.9em !important;
+}
+.normal {
+  font-size: 1em !important;
+}
+.baby-big {
+  font-size: 1.2em;
+}
+.big {
+  font-size: 1.5em !important;
+}
+.more-big {
+  font-size: 2.5em;
+}
+.bigger {
+  font-size: 3em;
+}
+.somewhat-bigger {
+  font-size: 4.5em;
+}
+// font-style
+.fr-lig {
+  font-family: 'Fira-Light';
+}
+.fr-reg {
+  font-family: 'Fira-Regular';
+}
+.fr-bold {
+  font-family: 'Fira-Bold';
+}
+.fr-bla {
+  font-family: 'Fira-black';
+}
+.mt-reg {
+  font-family: 'Montserrat-Regular';
+}
+.mt-bold {
+  font-family: 'Montserrat-Bold';
+}

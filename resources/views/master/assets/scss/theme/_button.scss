@@ -1,0 +1,39 @@
+.btn-b {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 7px 20px;
+  &:hover,&:focus {
+    text-decoration: none;
+  }
+  &.btn-b-primary {
+    background-color: $orange;
+    border-color: $orange;
+    color: $white !important;
+    &:focus,&:visited,&:active {
+      background-color: $orange;
+      box-shadow: 0 0 0 0.2rem #db5a0452;
+      color: $white !important;
+    }
+  }
+  &.btn-b-secondary {
+    background-color: $light-gray;
+    border-color: $light-gray;
+    color: $flat-black !important;
+  }
+  &.sh1,&.sh2,&.sh4 {
+     &:focus,&:visited,&:active {
+      box-shadow: none;
+    }
+  }
+}

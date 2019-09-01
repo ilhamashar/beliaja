@@ -1,0 +1,55 @@
+/*
+	Project Name : Beliaja (e-commerce web, pkl project)
+	Author : Beliaja IT Developer Team
+	Date Created : 10 July 2018 11:14:45
+	Copyright : 2018 (c) All Rights Reserved
+
+	For Beliaja-web only. Not for shared or published by others.
+*/
+
+// ---------------------- color pallete
+ $baby-orange: #FECC67;
+ $black : #000;
+ $dark-gray : #7E7B7A;
+ $dark-orange : #ED6C03;
+ $blue :  #5C5CF7;
+ $flat-black : #222222;
+ $flat-white : #f9f9f9;
+ $gray : #e5e5e5;
+ $green : #acca48;
+ $darkgreen : #1AA430;
+ $somewhat-blue : #304179;
+ $somewhat-light-gray : #f9f9f9;
+ $light-blue: #3498db;
+ $light-gray: #d8dcdc;
+ $light-green : #a1ceb7;
+ $light-orange : #FFF0C4;
+ $light-yellow : #f3cb5a;
+ $orange: #FF8D00;
+ $purple : #a77dc2;
+ $pink : #FFC8C8;
+ $red : #ED032D;
+ $white : #fff;
+ $yellow : #ffeb3b;
+
+//  ---
+$c-gplus : #dd4b39;
+$c-fb : #3b5998;
+$c-ig : #c32aa3;
+$c-linkedin : #007bb6;
+$c-line : #00b900;
+$c-pinterest : #bd081c;
+$c-twitter : #1da1f2;
+$c-wa : #25d366;
+$c-youtube : #ff0000;
+
+
+ // ---------------------- import
+@import 'helpers/_mixin';
+@import 'base/_font';
+@import 'base/_reset';
+@import 'layout/_layout';    // base layout
+@import 'theme/_theme';      // base theme
+@import 'theme/_button';
+@import 'layout/_responsive-layout';
+@import 'theme/_responsive-style';
